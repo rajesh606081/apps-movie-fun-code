@@ -5,7 +5,7 @@ applications:
   disk_quota: 1024M
   random-route: true
   stack: cflinuxfs2
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
   path: target/moviefun.war
   services:
    - movie-sql
-   
