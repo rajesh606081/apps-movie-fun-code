@@ -4,7 +4,7 @@ set -e +x
 
 pushd movie-fun
   echo "Packaging war"
-  ./mvn clean package -DskipTests
+  ./mvnw clean package -DskipTests
 popd
 
 jar_count=`find movie-fun/target -type f -name *.war | wc -l`
