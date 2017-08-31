@@ -16,7 +16,7 @@ fi
 
 
 
-find movie-fun/target -type f -name *.jar -exec cp "{}" package-output/moviefun.war \;
+find movie-fun/target -type f -name *.war -exec cp "{}" package-output/moviefun.war \;
 
 echo "Done packaging"
 exit 0
