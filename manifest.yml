@@ -7,4 +7,5 @@ applications:
   stack: cflinuxfs2
   path: target/moviefun.war
   services:
-    - movie-sql
+   - movie-sql
+   
